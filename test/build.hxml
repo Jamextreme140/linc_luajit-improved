@@ -1,6 +1,6 @@
--lib linc_luajit
--main Test.hx
--cpp cpp/
+-D analyzer-optimize
+#-lib linc_luajit
+-main Test
 -cp ../
 # pick a target
 
