@@ -2,6 +2,9 @@
 #-lib linc_luajit
 -main Test
 -cp ../
+
+--define HXCPP_CHECK_POINTER
+--define HXCPP_STACK_LINE
 # pick a target
 
 #-D mac
